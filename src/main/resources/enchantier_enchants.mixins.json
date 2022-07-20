@@ -4,8 +4,9 @@
   "package": "net.jucedoesthings.enchantier_enchants.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "UnenchantableBooksMixin",
-    "EnchantableEnchantersBooksMixin"
+    "EnchantableEnchantersBooksMixin",
+    "EnchantmentScreenHandlerMixin",
+    "UnenchantableBooksMixin"
   ],
   "client": [
   ],
